@@ -26,7 +26,7 @@ body {
     justify-content: center;
     background: #1F2937;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     padding: 90px 0;
 }
 
@@ -34,9 +34,15 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 13%;
-    width: 400px;
+    width: 700px;
     gap: 5px;
     
+}
+
+.left-content > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
 }
 
 a {
@@ -59,16 +65,12 @@ h1 {
     margin: 0;
 }
 
-p {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 0;
-}
-
 img {
     height: 60%;
     width: 350px;
     margin-right: 13%;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 button {
