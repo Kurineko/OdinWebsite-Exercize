@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.header > ul {
+    display: inherit;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    list-style: none;
+}
