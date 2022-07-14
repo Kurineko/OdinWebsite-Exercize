@@ -20,7 +20,7 @@ body {
     background: #1F2937;
     align-items: center;
     gap: 50px;
-    padding: 90px 0;
+    padding: 60px 0;
 }
 
 .left-content {
@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     margin-left: 13%;
     width: 500px;
-    gap: 5px;
+    gap: 8px;
     
 }
 
@@ -94,8 +94,14 @@ body {
     padding: 40px 35px;
 }
 
-.text-left {
-    margin: 0;
+.footer{
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #F9FAF8;
+    font-size: medium;
 }
 
 /*class, son of type selector*/
